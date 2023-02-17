@@ -1,6 +1,6 @@
 ###
 
-Good morning, everyone. My name is Russell and I am here to present to you our recommendations for homeowners looking to increase the value of their homes through various renovations. Using housing data provided from King County, Washington we have conducted an analysis on different factors that could potentially enhance the value of homes.
+Hello, We're here to present to you our recommendations for homeowners looking to increase the value of their homes through various renovations. Using housing data provided from King County, Washington we have conducted an analysis on different factors that could potentially enhance the value of homes.
 
 Our team consists of Paul Schulken, technical lead; Sean Conlon, presentation lead; and Russell Blanchard, GitHub lead.
 
