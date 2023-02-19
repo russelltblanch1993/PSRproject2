@@ -21,9 +21,9 @@ The data was taken from the King County government website and offered us inform
 
 As mentioned earlier, the number of bathrooms had the highest correlation on grade, which in turn had the highest correlation with price. To double check our models, we plotted the number of bathrooms against the average grade, then plotted the grade against average sale price. Although the average grade seems to decrease beyond 6 bathrooms, about 97% of the homes had between 1 and 3.5 bathrooms. As for average sale price, there is a strong positive relationship between grade and average price. Houses graded between 6 and 9 comprised almost 96% of the data.
 
-![Mean House Grade by Number of Bathrooms](./models/Mean_House_Grade_by_Number_of_Bathrooms.jpeg)
+![Mean House Grade by Number of Bathrooms](./Models/Mean_House_Grade_by_Number_of_Bathrooms.jpeg)
 
-![Mean Sale Price by House Grade](./models/Mean_Sale_Price_by_House_Grade.jpeg)
+![Mean Sale Price by House Grade](./Models/Mean_Sale_Price_by_House_Grade.jpeg)
 
 Earlier in our analysis we found grade to have the highest correlation with price so we wanted to see the effect of grade with price as our target. We found that grade alone accounts for about 28% of the variance in sales price. After adding all features under the homeowner’s control to the model, we were able to determine the $188,600 increase in price with one increase of grade. Our model also showed us the impact rankings of the features and confirmed that grade was the highest.
 
@@ -31,7 +31,7 @@ Earlier in our analysis we found grade to have the highest correlation with pric
 
 We discovered that the grade of a home correlates strongly with its price. Specifically, homes with higher grades tend to have more desirable features, such as garages, patios, and a greater number of bedrooms and bathrooms. Therefore, to increase the grade of a home, it's necessary to perform renovations that add these desirable features. Based on our research, the mean price of homes with 2.5 or more bathrooms is higher than the average price of homes with 2 or fewer bathrooms. This shows the number of bathrooms is an important factor in a home’s value.
 
-![Sale Price by Number of Bathrooms](./models/Sale_Price_by_Number_of_Bathrooms.jpeg)
+![Sale Price by Number of Bathrooms](./Models/Sale_Price_by_Number_of_Bathrooms.jpeg)
 
 Throughout our data, we found that different sizes of renovations will add different values. Homeowners who have invested more in their home renovation have been able to achieve a higher sale price for their home.
 
@@ -49,7 +49,7 @@ Please review our full analysis in [our Jupyter Notebook](./Phase_2_Project_Note
 
 ```
 ├── exploratory_files                   <- Jupyter notebooks for data exploration and testing
-├── models                              <- Both sourced externally and generated from code
+├── Models                              <- Both sourced externally and generated from code
 ├── data                                <- Data files used in analysis
 ├── .gitignore                          <- Code to avoid uploading specified files
 ├── Phase_2_Project_Notebook.ipynb      <- Narrative documentation of analysis in Jupyter notebook
